@@ -61,27 +61,30 @@ The cherry plantation crop from Farmy & Foods is facing a challenge where their 
 
 To save time in this process, the IT team suggested an ML system that detects instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
 
-
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them).
-
+* The unhealthy, mildewy leaves have marks which will allow to identify which leaves are healthy. This will allow for identification of each leaf.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
-
+### Requirement 1
+* Display the 'mean/average' and 'standard deviation' images for mildew  and healthy leaves.
+* Display the difference between each leaf
+### Requirement 2
+* Predict if the leaf is affected with mildew or not.
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
-
-
+* This is primarily in the farming industry and also for city parks and green spaces. Cherry trees are common around the country however, for edible cherry trees and for farming, it is even more important to work out which trees are affected with powdery mildew and which aren't. Furthermore, by being able to save time in identifying mildewy leaves, it may be possible to increase profits by spending more time on frowing healthy trees. 
+* A classification model will be used to identify the healthy leaves versus the leaves affected by powdery mildew.
+* The images of the leaves have been provided.
+* The client would require a dashboard for this.
+* The aim would be to ensure correct classification of the mildewy and healthy leaves. 
+* The classification model should have a >65% accuracy. 
+  
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
 * Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
-
 
 ## Unfixed Bugs
 * You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
