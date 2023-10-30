@@ -6,10 +6,10 @@ Find the link to the github repository [here](https://github.com/fatimamahate/ch
 Find the live heroku link [here](https://cherry-leaves-fatima-7fae09b7f791.herokuapp.com/)
 
 ## Dataset Content
-* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). The User story is ficticious from the assesment handbook.However it can be applied to real life. 
+* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). The User story is ficticious from the assessment handbook.However it can be applied to real life. 
 * The data has over 4000 images of cherry leaves that are either healthy or affected by powdery mildew. This can affect the profits of the farm. If the farmer is able to quickly identify an affected tree, they would be able to make a quick decision on what to do and can therefore focus efforts on producing fruits from a healthy tree. 
 
-## Business Requirements (CI)
+## Business Requirements (Code Institute)
 The cherry plantation crop from Farmy & Foods is facing a challenge where their cherry plantations have been presenting powdery mildew. Currently, the process is manual verification if a given cherry tree contains powdery mildew. An employee spends around 30 minutes in each tree, taking a few samples of tree leaves and verifying visually if the leaf tree is healthy or has powdery mildew. If there is powdery mildew, the employee applies a specific compound to kill the fungus. The time spent applying this compound is 1 minute.  The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
 
 To save time in this process, the IT team suggested an ML system that detects instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
@@ -44,9 +44,6 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Deployment
 ### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* The project was deployed to Heroku using the following steps.
-
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
@@ -79,7 +76,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Credits 
 
 * This project is based on the walkthrough project 1 which was taught by Gyan Shashwat. It was interesting to see similarities between both business requirements. You can find the Github Repository for the walkthrough project [here](https://github.com/Code-Institute-Solutions/WalkthroughProject01). 
-* Furthermore, the assessment handbook was where this idea had come from along with the dataset which can be found in this [Kaggle Link](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+* Furthermore, the assessment handbook was where this idea had come from along with the dataset. The dataset can be found in this [Kaggle Link](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 * Last but not least, the lessons on Streamlit were also used and you can find the link to the Github Repository [here](https://github.com/Code-Institute-Solutions/streamlit-calculator)
 
 
